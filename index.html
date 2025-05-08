@@ -1,2 +1,34 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head><meta http-equiv=Refresh content="0;url=html/index.html"></head></html>
+<html>
+<head>
+<meta http-equiv="refresh" content="5;URL=index.html">
+<meta charset=utf-8"/>
+<title>Webserver S1200
+ </title>
+<!-- AWP_In_Variable Name='"entrada0"' -->
+<!-- AWP_In_Variable Name='"entrada1"' -->
+<!-- AWP_In_Variable Name=‘"consigna"' -->
+<!-- AWP_In_Variable Name=‘"salida2"' -->
+</head>
+<body>
+
+<p>Estado primera entrada :="entrada0":</p>
+<p>Estado segunda entrada :="entrada1":</p>
+
+<form method="post" action="">
+<p>Cambiar valor consigna  <input name='"consigna"' type="text"></input>
+<input type="submit" value="ESCRIBIR"> </input></p>
+</form>
+<form method="post" action="">
+<p>SALIDA2 
+<input type="submit" value="ON">
+<input type="hidden" name='"salida2"' value="1">
+</p>
+</form>
+<form method="post" action="">
+<p>SALIDA2 
+<input type="submit" value="OFF"> 
+<input type="hidden" name='"salida2"' value="0">
+</p>
+</form>
+</body>
+</html>
